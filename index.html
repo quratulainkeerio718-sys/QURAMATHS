@@ -1,0 +1,25 @@
+4<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Algebra Game - Al-Khwarizmi Edition</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>🧮 Algebra Challenge<br>Al-Khwarizmi Edition</h1>
+
+  <div class="game-box">
+    <div id="equation">Loading equation...</div>
+    <input type="number" id="answer" placeholder="Enter x" />
+    <br />
+    <button onclick="checkAnswer()">Submit</button>
+    <div class="message" id="message"></div>
+    <div class="motivation" id="motivation"></div>
+    <div class="score">Score: <span id="score">0</span></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
